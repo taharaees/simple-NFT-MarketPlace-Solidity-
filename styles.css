@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9d6e3; /* Cherry blossom pink background */
+    background-image: url('cherry_blossom_background.jpg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333; /* Default text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addP, .buyP {
+    display: inline-block; /* or inline-flex */
+    border-radius: 10px; /* Adjust the value to change the border radius */
+    /* You can also add other styles as needed */
+    /* For example: */
+    border: 1px solid #ccc;
+    padding: 20px; 
+    margin-bottom: 20px;
+    background-color:lightpink
+}
+
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Sawarabi Mincho', serif; /* Japanese-inspired font */
+}
+
+h2 {
+    color:#333;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Sawarabi Mincho', serif; /* Japanese-inspired font */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:#333;
+    font-size: 1.1em; /* Larger font size for labels */
+    font-weight: 500;
+}
+
+input[type="number"], input[type="text"], input[type="checkbox"], button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent; /* Transparent background for input fields and buttons */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
